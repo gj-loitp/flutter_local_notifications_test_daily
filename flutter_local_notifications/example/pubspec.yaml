@@ -28,10 +28,13 @@ dev_dependencies:
 # The following overrides exist to ensure the example app builds with the latest code
 # of these packages as part of CI
 dependency_overrides:
-  flutter_local_notifications_linux:
-    path: ../../flutter_local_notifications_linux
-  flutter_local_notifications_platform_interface:
-    path: ../../flutter_local_notifications_platform_interface
+#  flutter_local_notifications_linux:
+#    path: ../../flutter_local_notifications_linux
+#  flutter_local_notifications_platform_interface:
+#    path: ../../flutter_local_notifications_platform_interface
+
+  flutter_local_notifications_linux: ^4.0.0
+  flutter_local_notifications_platform_interface: ^7.2.0
 
 flutter:
   uses-material-design: true
